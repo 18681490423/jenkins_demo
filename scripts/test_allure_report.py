@@ -21,7 +21,7 @@ class TestAllure:
     @allure.step(title="测试步骤003")
     def test_func_3(self):
         allure.attach('我是步骤003')
-        assert 0
+        assert 1
 
     @allure.severity(allure.severity_level.BLOCKER)
     @allure.step(title="测试步骤004")
